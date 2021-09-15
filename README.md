@@ -30,7 +30,8 @@ The client, a nonprofit, provided a dataset containing information from previous
 - Three attempts were made to optimize the model to achieve target accuracy of 75%, none of these were successful.
  * In the first attempt, I added a third hidden layer and changed the number of neurons in each layer.
   <img width="356" alt="Screen Shot 2021-09-15 at 4 24 22 PM" src="https://user-images.githubusercontent.com/82982901/133504335-5a7a6ef7-538e-4305-a7dc-53e3dac8c814.png">
- * The second attempt, 
+ * In the second attempt, 
+ * In the third attempt, 
 
 
 
