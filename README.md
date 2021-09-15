@@ -28,12 +28,9 @@ The client, a nonprofit, provided a dataset containing information from previous
  * The output layer used one neuron and the Sigmoid activation function.
 - The model resulted in a 72.67% accuracy rate which is slightly less than the target of 75%.
 - Three attempts were made to optimize the model to achieve target accuracy of 75%, none of these were successful.
- * In the first attempt, I added a third hidden layer and changed the number of neurons in each layer.
-  <img width="356" alt="Screen Shot 2021-09-15 at 4 24 22 PM" src="https://user-images.githubusercontent.com/82982901/133504335-5a7a6ef7-538e-4305-a7dc-53e3dac8c814.png">
- * In the second attempt, 
- * In the third attempt, 
-
-
+ * In the first attempt, I added a third hidden layer, changed the number of neurons in each layer, and set the number of epochs at 250. The accuracy rate lowered to 72.52%. <img width="356" alt="Screen Shot 2021-09-15 at 4 24 22 PM" src="https://user-images.githubusercontent.com/82982901/133504335-5a7a6ef7-538e-4305-a7dc-53e3dac8c814.png">
+ * In the second attempt, I kept the third hidden layer, epochs remained at 250, and adjusted the number of neurons in each layer again. The accuracy rate raised slightly to 72.59%. <img width="343" alt="Screen Shot 2021-09-15 at 4 29 23 PM" src="https://user-images.githubusercontent.com/82982901/133505852-7979f47e-bb85-42bc-b75d-06b1cdef4c4b.png"> 
+ * In the third attempt, I removed the hidden layer, changed the first hidden layer activation function to Leaky ReLu, returned the number of neurons in each hidden layer to 28 and 14 respectively, and changed the number of epochs to 200. The accuracy rate 
 
 ## Summary
 
